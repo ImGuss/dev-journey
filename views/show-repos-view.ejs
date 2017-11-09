@@ -1,0 +1,7 @@
+AMOUNT: <%= repos.length %>
+<br><br>
+<% repos.forEach( (repo) => { %>
+  <%= repo.name %>
+  <br><br>
+  <%= repo.language %>
+<% }); %>
